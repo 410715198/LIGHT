@@ -116,7 +116,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
         paint.setTextSize((int) 60 * canvas.getHeight() / 1080);
         paint.setAntiAlias(true);
         canvas.drawText("圖片編號：" + String.valueOf(step), (int) (0), (int) (canvas.getHeight()*0.1) ,paint);
-        canvas.drawText("             ，分數：" + String.valueOf(step), (int) (100), (int) (canvas.getHeight()*0.1) ,paint);
+        canvas.drawText("            ，分數：" + String.valueOf(step), (int) (100), (int) (canvas.getHeight()*0.1) ,paint);
     }
 
     //紅綠燈繪製
